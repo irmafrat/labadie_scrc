@@ -91,34 +91,32 @@ Joseph Labadie Subject Vertical File: Anarchism Categories
 "Libertarianism"
 "Media"
 
-
-REDFLAG-"Spain"
-REDFLAG-"Argentina"
-REDFLAG-"Art" (Consolidated)
+"Spain"
+"Argentina"
+"Art"
 "Birth Control"
 "Boycotts"
-REDFLAG- "Capitalism" (Consolidated)
+"Capitalism" 
 "Counter Culture"
 "Euthanasia "
-"Farmers" = 12 files
-"Fascism "= 12 files   
-REDFLAG Films (Consolidated) = 23 files
-"G.I Protest" = 14 files
-"Globalism" = 13 files
-"Health" = 14
-"Inmigration" = 17 files
- REDFLAG Iran = 10 files
-"Marijuana" = 17 files
-"Michigan" = 18 files
-REDFLAG Militarism = 10 files
-Monetary Reform = 23 files
-Narcotics = 14 files
-New left = 15 files
-Peace Corps = 18 files
-Racism = 11 files
-Refugees = 10 files
-Technology= 10 files
-Theater (Consolidated) = 17 files
-Vietnam war = 16 files
-Single tax = 11 files 
-
+"Farmers"
+"Fascism"   
+"Films"
+"G.I Protest"
+"Globalism"
+"Health"
+"Inmigration"
+ Iran
+"Marijuana"
+"Michigan"
+"Militarism"
+"Monetary Reform"
+"Narcotics"
+"New left"
+"Peace Corps"
+"Racism"
+"Refugees"
+"Technology"
+"Theater"
+"Vietnam war"
+"Single tax"

@@ -7,9 +7,9 @@ cache = Cache(cache_filename)
 
 #TODO
 # DONE: FOR LOOPS EXTRACTING ALL WEBSITE DATA (SUBJECT HEADINGS AND QUANTITY OF FOLDERS)
-#STRIP FOLDER QUANTITY FROM SUBJECT HEADING
+# DONE: STRIP FOLDER QUANTITY FROM SUBJECT HEADING
+# DONE: DIVIDE COLLECTIONS FROM EPHEMERA MATERIALS
 #METADATA CROSSWALK TO EAD/MODS
-#DIVIDE COLLECTIONS FROM EPHEMERA MATERIALS
 #XML OUTPUT
 #TEST EAD/MODS IMPORT TO ARCHIVESSPACE
 
@@ -32,8 +32,11 @@ while not "<strong>Sorry</strong>" in response:
     param.update({'page': idx})
     response = cache.get(url,param)
 
+#TEST
 # print(f"subject headings: {data_storage}")
 # print(f"{len(data_storage)} subject headings founded")
+
+# STRIP FOLDER QUANTITY FROM SUBJECT HEADING
 
 for folder_quantity in data_storage:
     if "folder(s)" in folder_quantity:
@@ -67,11 +70,63 @@ collection_headings = ["Anarchism",
 "Housing",
 "Internationalism",
 "Libertarianism",
-"Media"]
+"Media",
+"Spain",
+"Argentina",
+"Art",
+"Birth Control",
+"Boycotts",
+"Capitalism",
+"Counterculture",
+"Euthanasia",
+"Farmers",
+"Fascism",   
+"Films",
+"G.I. Protest",
+"Globalism",
+"Health",
+"Immigration",
+"Iran",
+"Marijuana",
+"Michigan",
+"Militarism",
+"Monetary Reform",
+"Narcotics",
+"New Left",
+"Peace Corps",
+"Racism",
+"Refugees",
+"Technology",
+"Theater",
+"Vietnam war",
+"Single Tax"]
 
+potential_collections_items= []
+potential_ephemera_collection= []
 for subject_heading in data_storage:
-    strip_sh= subject_heading.split(" - ")
-    if collection_headings in strip_sh:
-        print(strip_sh)
-
+    missing=True
+    for heading in collection_headings:
+        if heading in subject_heading:
+            potential_collections_items.append(subject_heading)
+            missing=False
+            break
+    if missing:
+        potential_ephemera_collection.append(subject_heading)
     
+
+#TEST
+print(f"Potential Collections Items Quantity: {len(potential_collections_items)}")
+print(f"Potential Ephemera Items Quantity: {len(potential_ephemera_collection)}")
+print(f"Collection Quantity: {len(data_storage)}")
+
+# WRITTING FILES WITH LIST OF POTENTIAL COLLECTIONS ITEMS AND POTENTIAL EPHEMERA COLLECTION ITEMS
+
+f = open("potential_collections.txt", "w")
+for item in potential_collections_items:
+    f.write(f"{item}\n")
+f.close()
+
+f = open("potential_ephemera.txt", "w")
+for item in potential_ephemera_collection:
+    f.write(f"{item}\n")
+f.close()
