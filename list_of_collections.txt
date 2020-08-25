@@ -1,0 +1,124 @@
+Totals of files are extracted from a updated CSV version of this list. 
+The website is not updated with this list so the numbers may differ.
+
+Collections: 
+#"Big Categories"#
+Anarchism = 1054 files
+Civil Liberties = 1007 files
+Colonialism and Imperialism = 287 files
+Communism = 281 files
+Co-operatives = 104 files
+Ecology = 170 files
+Labor = 807 files
+Pacifism = 574 files
+Prisons and Prisoners = 179 files
+Radical Right = 371 files
+Religion = 179 files
+Sexual Freedom = 805 files
+Socialism = 585 files
+Underground Press = 58 files
+Women = 208 files
+Youth and Student Protest = 248 files
+
+#Small Collections#
+Animal Liberation = 57 files
+Conservatism = 39 files
+Education = 44 files
+Housing = 26 files
+Internationalism = 26 files
+Libertarianism= 87 files
+Media = 35 files
+Spain = 58 files
+Argentina = 10 files
+Art (Consolidated) =21 files
+Birth Control = 10 files
+Boycotts = 11 files
+Capitalism (Consolidated) = 11 files
+Counter Culture = 17 files
+Euthanasia = 14 files
+Farmers = 12 files
+Fascism = 12 files   
+Films (Consolidated) = 23 files
+G.I Protest = 14 files
+Globalism = 13 files
+Health = 14
+Inmigration = 17 files
+Iran = 10 files
+Marijuana = 17 files
+Michigan = 18 files
+Militarism = 10 files
+Monetary Reform = 23 files
+Narcotics = 14 files
+New left = 15 files
+Peace Corps = 18 files
+Racism = 11 files
+Refugees = 10 files
+Technology= 10 files
+Theater (Consolidated) = 17 files
+Vietnam war = 16 files
+Single tax = 11 files 
+
+Ephemera consists of *1,164 categories that contain less than 10 files* (The total was extracted using Julie Herrada's 
+updated version of this list, numbers may differ from the webscraping)
+
+
+Joseph Labadie Subject Vertical File: Anarchism Collection
+Joseph Labadie Subject Vertical File: Anarchism Categories
+
+
+#"Big Categories"#
+"Anarchism"
+"Civil Liberties" 
+"Colonialism and Imperialism"
+"Communism"
+"Co-operatives"
+"Ecology"
+"Labor"
+"Pacifism"
+"Prisons and Prisoners"
+"Radical Right"
+"Religion"
+"Sexual Freedom"
+"Socialism"
+"Underground Press"
+"Women"
+"Youth and Student Protest"
+"Animal Liberation"
+"Conservatism"
+"Education"
+"Housing"
+"Internationalism"
+"Libertarianism"
+"Media"
+
+
+REDFLAG-"Spain"
+REDFLAG-"Argentina"
+REDFLAG-"Art" (Consolidated)
+"Birth Control"
+"Boycotts"
+REDFLAG- "Capitalism" (Consolidated)
+"Counter Culture"
+"Euthanasia "
+"Farmers" = 12 files
+"Fascism "= 12 files   
+REDFLAG Films (Consolidated) = 23 files
+"G.I Protest" = 14 files
+"Globalism" = 13 files
+"Health" = 14
+"Inmigration" = 17 files
+ REDFLAG Iran = 10 files
+"Marijuana" = 17 files
+"Michigan" = 18 files
+REDFLAG Militarism = 10 files
+Monetary Reform = 23 files
+Narcotics = 14 files
+New left = 15 files
+Peace Corps = 18 files
+Racism = 11 files
+Refugees = 10 files
+Technology= 10 files
+Theater (Consolidated) = 17 files
+Vietnam war = 16 files
+Single tax = 11 files 
+
