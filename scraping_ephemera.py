@@ -28,7 +28,7 @@ while not "<strong>Sorry</strong>" in response:
     for subject_heading in data:
         data_storage.append(subject_heading.text.strip())
     idx += 1
-    print(f"Finished: {idx}")
+    # print(f"Finished: {idx}")
     param.update({'page': idx})
     response = cache.get(url,param)
 
@@ -43,10 +43,10 @@ for folder_quantity in data_storage:
         split_subject_heading = folder_quantity.split(' - ')
         quantity = split_subject_heading[-1]
         clean_subject_heading = " - ".join(split_subject_heading[:-1])
-        print(f"{clean_subject_heading} has {quantity}")
+        # print(f"{clean_subject_heading} has {quantity}")
 
 
-# EXTRACTING COLLECTIONS MATERIALS FROM EPHEMERA
+# SEPARATING COLLECTIONS MATERIALS FROM EPHEMERA
 
 collection_headings = ["Anarchism",
 "Civil Liberties",
@@ -63,55 +63,22 @@ collection_headings = ["Anarchism",
 "Socialism",
 "Underground Press",
 "Women",
-"Youth and Student Protest",
-"Animal Liberation",
-"Conservatism",
-"Education",
-"Housing",
-"Internationalism",
-"Libertarianism",
-"Media",
-"Spain",
-"Argentina",
-"Art",
-"Birth Control",
-"Boycotts",
-"Capitalism",
-"Counterculture",
-"Euthanasia",
-"Farmers",
-"Fascism",   
-"Films",
-"G.I. Protest",
-"Globalism",
-"Health",
-"Immigration",
-"Iran",
-"Marijuana",
-"Michigan",
-"Militarism",
-"Monetary Reform",
-"Narcotics",
-"New Left",
-"Peace Corps",
-"Racism",
-"Refugees",
-"Technology",
-"Theater",
-"Vietnam war",
-"Single Tax"]
+"Youth and Student Protest"]
 
 potential_collections_items= []
 potential_ephemera_collection= []
 for subject_heading in data_storage:
+    subject_heading_low = subject_heading.lower().split(" - ")
+    for idx in range(len(subject_heading_low)):
+        subject_heading_low[idx] = subject_heading_low[idx].strip()
     missing=True
     for heading in collection_headings:
-        if heading in subject_heading:
+        if heading.lower() in subject_heading_low:
             potential_collections_items.append(subject_heading)
             missing=False
             break
     if missing:
-        potential_ephemera_collection.append(subject_heading)
+        potential_ephemera_collection.append(" - ".join(subject_heading_low))
     
 
 #TEST
@@ -130,3 +97,4 @@ f = open("potential_ephemera.txt", "w")
 for item in potential_ephemera_collection:
     f.write(f"{item}\n")
 f.close()
+
